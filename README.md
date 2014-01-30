@@ -26,6 +26,8 @@ The code is not geared toward efficiency, but rather, human readability.
 
 My goal was to make the algorithm itself as clear as possible.
 
+The [tower image] is from Wikipedia.
+
 
 [Seam carving]:  http://en.wikipedia.org/wiki/Seam_carving
 
@@ -34,3 +36,5 @@ My goal was to make the algorithm itself as clear as possible.
 [Ariel Shamir]:  http://www.faculty.idc.ac.il/arik/
 
 [SIGGRAPH 2007]: http://www.faculty.idc.ac.il/arik/SCWeb/imret/imret.pdf
+
+[tower image]:   http://en.wikipedia.org/wiki/File:Broadway_tower_edit.jpg
