@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+<style>
+canvas#original {
+  background: white ;
+}
+
+canvas#grayscale {
+  background: white ;
+}
+
+canvas#gradientMagnitude {
+  background: white ;
+}
+
+canvas#carved {
+  background: white ;
+}
+
+body {
+  background: grey ;
+}
+</style>
+
+</head>
+
+<body>
+
+<center>
+
+ <input type="button" value="grayscale" onclick="HandleGrayscale();" />
+
+ <input type="button" value="gradient" onclick="HandleGradient();" />
+
+ <input type="button" value="find seam" onclick="HandleFindSeam();" />
+
+ <input type="button" value="carve" onclick="HandleCarve();" /> 
+
+ |
+
+ <input type="button" value="carve & swap" onclick="HandleSwap();" /> 
+
+ <input type="text" id="iterations" value="1" /> times
+</cener>
+
+<hr />
+
+
+<center>
+<canvas id="original" width="100" height="100" >
+</canvas>
+
+<hr />
+
+<canvas id="grayscale" width="100" height="100" >
+</canvas>
+
+<hr />
+
+<canvas id="gradientMagnitude" width="100" height="100" >
+</canvas>
+
+<hr />
+
+<canvas id="carved" width="100" height="100" >
+</canvas>
+
+
+
+
+</center>
+
+<script src="seamcarve.js"></script>
+
+
+</body>
+
+
+</html>
